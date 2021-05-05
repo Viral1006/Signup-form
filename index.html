@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="en";>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+      rel="stylesheet"
+       href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>LOGIN</title>
+</head>
+
+<body>
+<form method="GET" onSubmit = "return checkPassword(this)">
+    <div class="main center">
+        <div class="login center">
+            <div class="user center">
+                <i class="far fa-user"></i>
+            </div>
+                <div class="email center">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" class="" placeholder="Enter Email" required/>
+                </div>    
+                <div class="password center">
+                    <i class="fas fa-key"></i>
+                    <input type="password" class="" name=password1 placeholder="Enter Password" required/>
+                </div>
+                <div class="password center">
+                    <i class="fas fa-key"></i>
+                    <input type="password" class="" name=password2 placeholder="Confirm Password" required/>
+                </div>
+                <button class="btn btn1">LOGIN</button>  
+        </div>
+    </div>
+</form>    
+</body>
+
+</html>
